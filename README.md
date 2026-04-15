@@ -1,5 +1,12 @@
 # @tcbs/core
 
+![npm](https://img.shields.io/npm/v/@tcbs/core)
+![downloads](https://img.shields.io/npm/dw/@tcbs/core)
+![license](https://img.shields.io/npm/l/@tcbs/core)
+[
+  ![Docs](https://img.shields.io/badge/docs-UI%20Docs-blue?logo=readthedocs&logoColor=white&style=flat-square)
+](https://tcbscli.subraatakumar.com/core/)
+
 Core contracts and architecture primitives for TCBS layered applications.
 
 `@tcbs/core` is the contract-first foundation of the TCBS package ecosystem.
