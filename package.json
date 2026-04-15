@@ -1,0 +1,50 @@
+{
+  "name": "@tcbs/core",
+  "version": "0.1.0",
+  "description": "Core contracts and architecture primitives for TCBS layered apps.",
+  "keywords": [
+    "tcbs",
+    "core",
+    "architecture",
+    "contracts",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "TechCraft By Subrata <subraatakumar@gmail.com>",
+  "homepage": "https://tcbscli.subraatakumar.com",
+  "bugs": {
+    "url": "https://github.com/TechCraft-By-Subrata/tcbs-monorepo/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechCraft-By-Subrata/tcbs-monorepo.git"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "lib/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "test": "echo \"No tests configured yet\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
